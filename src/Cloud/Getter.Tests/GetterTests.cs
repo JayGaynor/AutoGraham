@@ -4,11 +4,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Getter.Tests
 {
 	[TestClass]
-	public class UnitTest1
+	public class GetterTests
 	{
 		[TestMethod]
 		public void TestMethod1()
 		{
+			Assert.AreEqual("yes", new Getter.StatsPuller().GetStats("aapl"));
 		}
 	}
 }

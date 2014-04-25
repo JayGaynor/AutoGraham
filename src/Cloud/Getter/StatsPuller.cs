@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Getter
 {
-    public class Class1
-    {
-    }
+	public class StatsPuller
+	{
+		public string GetStats(string symbol)
+		{
+			return "yes";
+		}
+	}
 }
